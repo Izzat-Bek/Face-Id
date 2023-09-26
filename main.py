@@ -9,7 +9,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 counter = 0
 face_match = False
-reference_img = cv2.imread('IZZAT.jpg')
+reference_img = cv2.imread('path to jpg file')
 
 
 def check_face(frame):
